@@ -47,13 +47,13 @@ function App() {
       </div>
       
     ))}
-    <div className="App">
+    {/* <div className="App">
       <Hello></Hello>
       <Greeting {...info[0]}/>
       {info.map((user)=>(
         <Greeting {...user}/>
       ))}
-    </div>
+    </div> */}
     </>
   );
 }
